@@ -1,0 +1,28 @@
+# Make vars
+SHELL = /bin/bash
+MAKEFLAGS += --silent
+
+# Application vars
+COMMIT_HASH ?= $(shell git rev-parse --short=7 HEAD)
+DOCKER_REGISTRY ?= ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com
+DOCKER_IMAGE ?= project/building-with-make
+
+all: build tag push
+.PHONY : all
+
+build: 
+	set -eo pipefail; \
+	echo "[make-build] building the image \"$(DOCKER_IMAGE)\" and tag \"$(COMMIT_HASH)\""; \
+	docker build --force-rm --no-cache -t $(DOCKER_IMAGE):$(COMMIT_HASH) .
+
+tag:
+	set -eo pipefail; \
+	docker tag $(DOCKER_IMAGE):$(COMMIT_HASH) $(DOCKER_REGISTRY)/$(DOCKER_IMAGE):$(COMMIT_HASH); \
+
+push:tag
+push:
+	set -eo pipefail; \
+	echo "[make-push] get login on aws ecr"; \
+	$$(aws ecr get-login --no-include-email --region us-east-1); \
+	echo "[make-push] pushing the image \"$(DOCKER_IMAGE)\""; \
+	docker push $(DOCKER_REGISTRY)/$(DOCKER_IMAGE):$(COMMIT_HASH);

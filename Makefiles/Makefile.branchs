@@ -1,0 +1,28 @@
+
+# Default shell
+SHELL = /bin/bash
+
+# Make Vars
+BRANCH ?= $(shell git rev-parse --abbrev-ref HEAD)
+
+## 
+## make branch-check -f Makefile.branchs -e BRANCH="master"
+##
+.PHONY: branch-check
+.SILENT: branch-check
+branch-check:
+	set -eo pipefail; \
+	# branch list \
+	declare -a branchs=( \
+			"master" \
+	); \
+	for b in $${branchs[@]}; do \
+		if [[ "$(BRANCH)" == $${b} ]]; then \
+			echo "The branch \"$${b}\" was founded!"; \
+			break; \
+		else \
+			echo "The branch \"$(BRANCH)\" not found!"; \
+		fi; \
+	done; \
+
+	

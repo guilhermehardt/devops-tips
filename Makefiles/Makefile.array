@@ -1,0 +1,45 @@
+
+# Defaul shell
+SHELL = /bin/bash
+# Silent targets
+MAKEFLAGS += --silent
+
+#
+# Example 1: Checking if array empty
+#
+## using this example:
+#  $ make -f Makefile.examples empty
+#
+.PHONY: empty
+empty:
+	set -eo pipefail; \
+    declare -a arr=(); \
+    # declare -a arr=( "1" "2" ); \
+    # Check if the array is empty \
+    [[ $${#arr[@]} -eq 0 ]] && echo "The array is empty!!" && exit 0; \
+    echo "$${arr[@]}"; \
+
+
+#
+# Example 2: Checking if array empty
+#
+## using this example:
+#  $ make -f Makefile.array append
+#
+
+PROJECT = testing
+
+.PHONY: append
+append: 
+	set -eo pipefail; \
+	declare -a mvn_goal=( \
+		"master:deploy" \
+	); \
+	for a in $${mvn_goal[@]}; do \
+		echo -e "[before-append] Branch: $${a%:*} (mvn goal: \"$${a#*:}\") "; \
+	done; \
+    # append new value \
+    [[ $(PROJECT) == "testing" ]] && mvn_goal=( "$${mvn_goal[@]}" "staging:deploy" ); \
+	for b in $${mvn_goal[@]}; do \
+		echo -e "[after-append] Branch: $${b%:*} (mvn goal: \"$${b#*:}\") "; \
+	done; \
