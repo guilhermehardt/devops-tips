@@ -8,6 +8,7 @@
 - [Last Week AWS](https://www.lastweekinaws.com/about/)
 - [AWS Diagrams](https://www.gliffy.com/diagrams)
 - [Containers RoadMap](https://github.com/aws/containers-roadmap)
+- [ECR Native Container Image Scanning](https://aws.amazon.com/blogs/containers/amazon-ecr-native-container-image-scanning/)
 
 ### Kubernetes
 
@@ -22,6 +23,7 @@
 - [Internal and external connectivity in Kubernetes space](https://medium.com/@metaphorical/internal-and-external-connectivity-in-kubernetes-space-a25cba822089)
 - [Architecting Kubernetes clusters — choosing a worker node size](https://learnk8s.io/kubernetes-node-size/)
 - [Container Platform Security at Cruise](https://medium.com/cruise/container-platform-security-7a3057a27663)
+- [Internal and external connectivity in Kubernetes space](https://medium.com/@metaphorical/internal-and-external-connectivity-in-kubernetes-space-a25cba822089)
 
 ### SRE/DevOps
 
@@ -34,6 +36,10 @@
 - [Streamline microservice management with Istio](https://developers.redhat.com/books/introducing-istio-service-mesh-microservices/)
 - [Guide to Cloud Native Microservices](https://thenewstack.io/ebooks/microservices/cloud-native-microservices-2018/)
 - [The DevOps Roadmap for Security](https://info.signalsciences.com/devops-security-roadmap?utm_medium=cpc&utm_source=twitter&utm_campaign=digital_Q417)
+
+### Golang
+
+- [Go library for doing tasks that shell script are good](https://github.com/bitfield/script)
 
 ### Make GNU
 
