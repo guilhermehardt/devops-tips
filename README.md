@@ -9,6 +9,9 @@
 - [AWS Diagrams](https://www.gliffy.com/diagrams)
 - [Containers RoadMap](https://github.com/aws/containers-roadmap)
 - [ECR Native Container Image Scanning](https://aws.amazon.com/blogs/containers/amazon-ecr-native-container-image-scanning/)
+- [Setting up a CI/CD pipeline by integrating Jenkins with AWS CodeBuild and AWS CodeDeploy](https://aws.amazon.com/blogs/devops/setting-up-a-ci-cd-pipeline-by-integrating-jenkins-with-aws-codebuild-and-aws-codedeploy/)
+- [The $10m engineering problem](https://segment.com/blog/the-10m-engineering-problem/)
+
 
 ### Kubernetes
 
