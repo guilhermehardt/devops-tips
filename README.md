@@ -12,6 +12,8 @@
 - [Setting up a CI/CD pipeline by integrating Jenkins with AWS CodeBuild and AWS CodeDeploy](https://aws.amazon.com/blogs/devops/setting-up-a-ci-cd-pipeline-by-integrating-jenkins-with-aws-codebuild-and-aws-codedeploy/)
 - [The $10m engineering problem](https://segment.com/blog/the-10m-engineering-problem/)
 - [Building a Kubernetes CI/CD pipeline on AWS with CodePipeline & CodeBuild @ Shopgun](https://itnext.io/building-a-kubernetes-ci-cd-pipeline-on-aws-with-codepipeline-codebuild-shopgun-43ccf76277b5 )
+- [Networking in the Cloud Fundamentals, Part 1](https://www.lastweekinaws.com/podcast/aws-morning-brief/networking-in-the-cloud-fundamentals-part-1/)
+
 
 
 ### Kubernetes
@@ -29,6 +31,10 @@
 - [Container Platform Security at Cruise](https://medium.com/cruise/container-platform-security-7a3057a27663)
 - [Internal and external connectivity in Kubernetes space](https://medium.com/@metaphorical/internal-and-external-connectivity-in-kubernetes-space-a25cba822089)
 - [kubectl debug](https://github.com/aylei/kubectl-debug)
+- [Tools and Methods for Auditing Kubernetes RBAC Policies](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/august/tools-and-methods-for-auditing-kubernetes-rbac-policies/?utm_sq=g7905rdp5e)
+- [Reusable components for designing and implementing cloud-native applications on Kubernetes](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
+- [Cross-cloud cost allocation models for workloads running on Kubernetes](https://github.com/kubecost/cost-model)
+- [Customization of kubernetes YAML configurations](https://github.com/kubernetes-sigs/kustomize)
 
 ### SRE/DevOps
 
