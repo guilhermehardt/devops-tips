@@ -13,7 +13,8 @@
 - [The $10m engineering problem](https://segment.com/blog/the-10m-engineering-problem/)
 - [Building a Kubernetes CI/CD pipeline on AWS with CodePipeline & CodeBuild @ Shopgun](https://itnext.io/building-a-kubernetes-ci-cd-pipeline-on-aws-with-codepipeline-codebuild-shopgun-43ccf76277b5 )
 - [Networking in the Cloud Fundamentals, Part 1](https://www.lastweekinaws.com/podcast/aws-morning-brief/networking-in-the-cloud-fundamentals-part-1/)
-
+- [Hands on labs and code to help you learn, measure, and build using architectural best practices](https://github.com/awslabs/aws-well-architected-labs)
+- [AWS Security Best Practices](https://github.com/toniblyx/prowler)
 
 
 ### Kubernetes
@@ -35,6 +36,10 @@
 - [Reusable components for designing and implementing cloud-native applications on Kubernetes](https://www.redhat.com/en/engage/kubernetes-containers-architecture-s-201910240918)
 - [Cross-cloud cost allocation models for workloads running on Kubernetes](https://github.com/kubecost/cost-model)
 - [Customization of kubernetes YAML configurations](https://github.com/kubernetes-sigs/kustomize)
+- [A Kubernetes DaemonSet to gracefully handle EC2 Spot Instance interruptions](https://github.com/aws/aws-node-termination-handler)
+- [Kubernetes production best practices](https://learnk8s.io/production-best-practices)
+- [70 Best Kubernetes Tutorials](https://www.aquasec.com/wiki/display/containers/70+Best+Kubernetes+Tutorials?utm_sq=g7njflrkvo)
+- [Passing Certified Kubernetes Administrator: My lessons learned](https://medium.com/faun/passing-certified-kubernetes-administrator-exam-tips-d5107d8e3e7b?)
 
 ### SRE/DevOps
 
@@ -48,6 +53,8 @@
 - [Streamline microservice management with Istio](https://developers.redhat.com/books/introducing-istio-service-mesh-microservices/)
 - [Guide to Cloud Native Microservices](https://thenewstack.io/ebooks/microservices/cloud-native-microservices-2018/)
 - [The DevOps Roadmap for Security](https://info.signalsciences.com/devops-security-roadmap?utm_medium=cpc&utm_source=twitter&utm_campaign=digital_Q417)
+- [Cloud Custodian - Opensource Cloud Security, Governance, and Management](https://github.com/cloud-custodian/cloud-custodian)
+- [100 Best DevOps Stories of 2019— Faun](https://medium.com/faun/100-best-devops-stories-of-2019-faun-11d0c395cd75)
 
 ### Golang
 
