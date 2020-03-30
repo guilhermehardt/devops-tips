@@ -34,7 +34,7 @@ Email address: administrator@mail.com
 You selected this USER-ID:  
      "Administrator"  
 
-***Select the letter 'O' to confirm***
+***Select the letter 'O' to confirm***  
 Change (N)ame, (E)mail, or (O)kay/(Q)uit? **O**  
 
 We need to generate a lot of random bytes. It is a good idea to perform  
