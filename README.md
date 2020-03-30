@@ -55,7 +55,7 @@
 - [The DevOps Roadmap for Security](https://info.signalsciences.com/devops-security-roadmap?utm_medium=cpc&utm_source=twitter&utm_campaign=digital_Q417)
 - [Cloud Custodian - Opensource Cloud Security, Governance, and Management](https://github.com/cloud-custodian/cloud-custodian)
 - [100 Best DevOps Stories of 2019— Faun](https://medium.com/faun/100-best-devops-stories-of-2019-faun-11d0c395cd75)
-- [How to generate PGP keys](Scripts/gkg-how-to-generate.md)
+- [How to generate PGP keys](how-to-do/gkg-how-to-generate.md)
 
 ### Golang
 
