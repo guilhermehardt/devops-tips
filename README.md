@@ -15,14 +15,15 @@
 |[Networking in the Cloud Fundamentals, Part 1](https://www.lastweekinaws.com/podcast/aws-morning-brief/networking-in-the-cloud-fundamentals-part-1/) |
 |[Hands on labs and code to help you learn, measure, and build using architectural best practices](https://github.com/awslabs/aws-well-architected-labs) |
 |[AWS Security Best Practices](https://github.com/toniblyx/prowler) |
+|[Review: Práticas de Right Sizing na AWS](https://medium.com/natura-infra-e-devops/review-pr%C3%A1ticas-de-right-sizing-na-aws-58bb92897a0c)|
 
 | AWS Certified |
 | --- |
-| [Aula do Bruno](https://github.com/brunokktro/auladobruno) |
-| [AWS Certified SAA](https://www.linkedin.com/pulse/aws-certified-solutions-architect-associate-rafael-conceicao/) by Rafael Conceicao |
-| [AWS Solution Architect Associate exam, my notes and tips](https://loige.co/aws-solution-architect-associate-exam-notes-tips/) by Luciano Mammino |
-| [My Journey to AWS Certified Solutions Architect — Professional](https://medium.com/@yashbindlish1/my-journey-to-aws-certified-solutions-architect-professional-f287bfe88da4) |
-| [How to prepare AWS Solution Architect Associate Certification Exam](https://medium.com/@qwe16165850/how-to-prepare-aws-solution-architect-associate-certification-exam-ac34be62ece9) |
+|[Aula do Bruno](https://github.com/brunokktro/auladobruno) |
+|[AWS Certified SAA](https://www.linkedin.com/pulse/aws-certified-solutions-architect-associate-rafael-conceicao/) by Rafael Conceicao |
+|[AWS Solution Architect Associate exam, my notes and tips](https://loige.co/aws-solution-architect-associate-exam-notes-tips/) by Luciano Mammino |
+|[My Journey to AWS Certified Solutions Architect — Professional](https://medium.com/@yashbindlish1/my-journey-to-aws-certified-solutions-architect-professional-f287bfe88da4) |
+|[How to prepare AWS Solution Architect Associate Certification Exam](https://medium.com/@qwe16165850/how-to-prepare-aws-solution-architect-associate-certification-exam-ac34be62ece9) |
 
 | Kubernetes |
 | --- |
@@ -51,26 +52,28 @@
 
 | SRE/DevOps |
 | --- |
-| [#FiqueEmCasaConf](https://github.com/linuxtips/FiqueEmCasaConf) by LINUXtips  |
-| [Run VS Code on any server over SSH](https://github.com/cdr/sshcode) |
-| [Awesome SRE](https://github.com/dastergon/awesome-sre) |
-| [Awesome DevOps BR](https://github.com/devops-br/awesome-devops-br) |
-| [Free Web Ops & DevOps Ebooks](https://www.oreilly.com/webops/free/) |
-| [SRE Weekly](http://sreweekly.com/) |
-| [Using Go instead of bash for scripts](https://presstige.io/p/Using-Go-instead-of-bash-for-scripts-6b51885c1f6940aeb40476000d0eb0fc) |
-| [Google - How to do a code review](https://google.github.io/eng-practices/review/reviewer/) |
-| [Streamline microservice management with Istio](https://developers.redhat.com/books/introducing-istio-service-mesh-microservices/) |
-| [Guide to Cloud Native Microservices](https://thenewstack.io/ebooks/microservices/cloud-native-microservices-2018/) |
-| [The DevOps Roadmap for Security](https://info.signalsciences.com/devops-security-roadmap?utm_medium=cpc&utm_source=twitter&utm_campaign=digital_Q417) |
-| [Cloud Custodian - Opensource Cloud Security, Governance, and Management](https://github.com/cloud-custodian/cloud-custodian) |
-| [100 Best DevOps Stories of 2019— Faun](https://medium.com/faun/100-best-devops-stories-of-2019-faun-11d0c395cd75) |
-| [How to generate PGP keys](how-to-do/gkg-how-to-generate.md) |
+|[#FiqueEmCasaConf](https://github.com/linuxtips/FiqueEmCasaConf) by LINUXtips  |
+|[Run VS Code on any server over SSH](https://github.com/cdr/sshcode) |
+|[Awesome SRE](https://github.com/dastergon/awesome-sre) |
+|[Awesome DevOps BR](https://github.com/devops-br/awesome-devops-br) |
+|[Free Web Ops & DevOps Ebooks](https://www.oreilly.com/webops/free/) |
+|[SRE Weekly](http://sreweekly.com/) |
+|[Using Go instead of bash for scripts](https://presstige.io/p/Using-Go-instead-of-bash-for-scripts-6b51885c1f6940aeb40476000d0eb0fc) |
+|[Google - How to do a code review](https://google.github.io/eng-practices/review/reviewer/) |
+|[Streamline microservice management with Istio](https://developers.redhat.com/books/introducing-istio-service-mesh-microservices/) |
+|[Guide to Cloud Native Microservices](https://thenewstack.io/ebooks/microservices/cloud-native-microservices-2018/) |
+|[The DevOps Roadmap for Security](https://info.signalsciences.com/devops-security-roadmap?utm_medium=cpc&utm_source=twitter&utm_campaign=digital_Q417) |
+|[Cloud Custodian - Opensource Cloud Security, Governance, and Management](https://github.com/cloud-custodian/cloud-custodian) |
+|[100 Best DevOps Stories of 2019— Faun](https://medium.com/faun/100-best-devops-stories-of-2019-faun-11d0c395cd75) |
+|[How to generate PGP keys](how-to-do/gkg-how-to-generate.md) |
 
 | Golang |
 | --- |
-| [Go library for doing tasks that shell script are good](https://github.com/bitfield/script) |
+|[Go library for doing tasks that shell script are good](https://github.com/bitfield/script) |
+|[Go as a Scripting Language](https://www.infoq.com/news/2020/04/go-scripting-language/) |
+
 
 | Make GNU |
 | --- |
-| [Managing Projects with GNU Make](http://uploads.mitechie.com/books/Managing_Projects_with_GNU_Make_Third_Edition.pdf) by Robert Mecklenburg |
-| [Make GNU](http://irtfweb.ifa.hawaii.edu/~lockhart/engr/make.pdf) by Bright Star Engineering |
+|[Managing Projects with GNU Make](http://uploads.mitechie.com/books/Managing_Projects_with_GNU_Make_Third_Edition.pdf) by Robert Mecklenburg |
+|[Make GNU](http://irtfweb.ifa.hawaii.edu/~lockhart/engr/make.pdf) by Bright Star Engineering |
